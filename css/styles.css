@@ -1,0 +1,196 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #487e95;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem
+}
+
+/*Headings*/
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/*Navigation bar*/
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-lik {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/*Download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title image*/
+.title-image {
+  position: absolute;
+  left: 27%;
+}
+
+/*Features*/
+#features {
+  background-color: #fff;
+  padding: 2% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  text-align: center;
+  padding: 5%;
+}
+#features .feature p {
+  color:#8f8f8f;
+}
+.item-characteristics p {
+  color: #0a043c;
+  text-align: left;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*testimonial section*/
+#testimonials {
+  text-align: center;
+  background-color: #23689b;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 200px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 2% 15%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#press {
+  background-color: #23689b;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/*Pricing Section*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.view-btn {
+  margin-top: 20px;
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+a:visited {
+  color:#ffe227;
+}
+a:hover {
+  color:#fff;
+}
+a:active {
+  color:red;
+}
+.promotion-text {
+  margin-top: 33px;
+}
+/*responsivness of web site (in this case):
+when size goes 993px and less - max-width: 993px
+1 rule - the title image goes in to a flow and dos not disapearing
+2 rule - text become centralised
+*/
+@media (max-width: 993px) {
+  .title-image {
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+.card-body {
+  background-color: #51c2d5;
+  color: #23689b;
+}
+
+/*cta section*/
+#cta {
+  background-color: #70af85;
+  color: #fff;
+  text-align: center;
+  padding: 2% 15%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.low-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/*footer section*/
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: black;
+}
+.hot
